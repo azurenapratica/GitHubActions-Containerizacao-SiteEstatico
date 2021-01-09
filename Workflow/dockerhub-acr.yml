@@ -10,7 +10,7 @@ jobs:
 
   build-push-dockerhub-acr:
     env:
-      NOME_IMAGEM: teste-site-anp
+      NOME_IMAGEM: site-anp
       IMAGEM_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/$NOME_IMAGEM
       IMAGEM_AZURECR: ${{ secrets.AZURECR_REGISTRY }}/$NOME_IMAGEM
       
